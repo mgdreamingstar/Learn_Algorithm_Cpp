@@ -3,7 +3,8 @@
 
 int main()
 {
-    printf("%d\n",1+2);
+    printf("%0.1f\n",1.0/2);
+    printf("the answer is: %d, 2+3")
     system("pause");
     return 0;
 }
