@@ -1,0 +1,10 @@
+{
+    // "python.pythonPath": "D:\\Anaconda\\envs\\pymc\\python.exe",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false,
+    "files.exclude": {
+        "**/*.pyc": true
+    },
+    "python.linting.flake8Enabled": true,
+    "python.pythonPath": "D:\\Anaconda\\envs\\pymc\\python.exe"
+}
