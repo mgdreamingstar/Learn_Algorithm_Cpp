@@ -4,16 +4,20 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "mozooo",
+            "label": "build",
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "${file}"
+                "-g",
+                "${file}",
+                "-o",
+                "${fileBasenameNoExtension}.exe" // .exe file has same filename with .cpp file
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         }
     ]
 }
